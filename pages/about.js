@@ -5,14 +5,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home - Karl</title>
-        <meta name="description" content="Home Page" />
+        <title>About Page</title>
+        <meta name="description" content="About Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Ir al <a href="/about">About</a>
+          Ir al <a href="/">Home</a>
         </h1>
 
         <p className={styles.description}>
